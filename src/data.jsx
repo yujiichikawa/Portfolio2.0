@@ -1,13 +1,24 @@
 //  icons
-import { FiYoutube, FiTwitter, FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
 
 // skills images
-import SkillImg1 from "./assets/img/skills/html.png";
-import SkillImg2 from "./assets/img/skills/javascript.png";
-import SkillImg3 from "./assets/img/skills/typescript.png";
-import SkillImg4 from "./assets/img/skills/react.png";
-import SkillImg5 from "./assets/img/skills/java.png";
-import SkillImg6 from "./assets/img/skills/sql.png";
+import {
+  DiHtml5,
+  DiCss3,
+  DiJsBadge,
+  DiMysql,
+  DiReact,
+  DiJava,
+  DiPython,
+  DiAndroid
+} from "react-icons/di";
+
+//import SkillImg1 from "./assets/img/html.png";
+//import SkillImg2 from "./assets/img/javascript.png";
+//import SkillImg3 from "./assets/img/typescript.png";
+//import SkillImg4 from "./assets/img/react.png";
+//import SkillImg5 from "./assets/img/java.png";
+//import SkillImg6 from "./assets/img/sql.png";
 
 // navigation
 export const navigation = [
@@ -32,26 +43,20 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: "https://www.youtube.com/channel/UC6duY9-fOnOn42zHRlSaP-g",
+    icon: <FiInstagram />,
+    href: "https://www.instagram.com/tyujigi/",
     color: "text-red-500",
     colorHover: "hover:text-red-900",
   },
   {
-    icon: <FiTwitter />,
-    href: "https://twitter.com/GHarakis",
-    color: "text-blue-500",
-    colorHover: "hover:text-blue-900",
-  },
-  {
     icon: <FiGithub />,
-    href: "https://github.com/harakisgeorge",
+    href: "https://github.com/yujiichikawa",
     color: "text-white",
     colorHover: "hover:text-gray-500",
   },
   {
     icon: <FiLinkedin />,
-    href: "https://www.linkedin.com/feed/",
+    href: "https://www.linkedin.com/in/thiago-ichikawa-0bba07205/",
     color: "text-blue-500",
     colorHover: "hover:text-blue-900",
   },
@@ -60,31 +65,32 @@ export const social = [
 // skill
 export const skills = [
   {
-    image: SkillImg1,
+    image: DiHtml5,
   },
   {
-    image: SkillImg2,
+    image: DiCss3,
   },
   {
-    image: SkillImg3,
+    image: DiJsBadge,
   },
   {
-    image: SkillImg4,
+    image: DiMysql,
   },
   {
-    image: SkillImg5,
+    image: DiReact,
   },
   {
-    image: SkillImg6,
+    image: DiJava,
+  },
+  {
+    image: DiPython,
+  },
+  {
+    image: DiAndroid,
   },
 ];
 
 export const sections = [
-  {
-    title: "YouTube Content Creator for Web Development",
-    content:
-      "I create videos on YouTube about web development topics such as HTML, CSS, JavaScript, React, and TypeScript.",
-  },
   {
     title: "Backend Developer",
     content:
