@@ -45,7 +45,7 @@ export const social = [
   {
     icon: <FiInstagram />,
     href: "https://www.instagram.com/tyujigi/",
-    color: "text-red-500",
+    color: "text-fuchsia-700",
     colorHover: "hover:text-red-900",
   },
   {
