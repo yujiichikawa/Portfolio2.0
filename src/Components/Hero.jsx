@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { MeshDistortMaterial, Sphere, OrbitControls } from "@react-three/drei";
 import { ArrowSection } from "./ArrowSection";
 import { inViewHandler } from "../animationHandler"
-import { inView, motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { InView } from "react-intersection-observer";
 
 export const Hero = () => {
@@ -12,7 +12,7 @@ export const Hero = () => {
     <InView onChange={(inView)=>inViewHandler(inView,animation)}>
       <section
         id="home"
-        className="h-[100vh] flex items-center w-full flex-col bg-[conic-gradient(var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
+        className="h-[100vh] flex items-center w-full flex-col bg-gradient-to-bl from-gray-700 via-gray-900 to-black"
       >
         
         <div className="container mx-auto h-full flex justify-start">
@@ -52,9 +52,6 @@ export const Hero = () => {
                 </motion.div>
             </div>
           </div>
-        </div>
-        <div className="bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black flex items-center justify-center">
-          <ArrowSection />
         </div>
       </section>
     </InView>

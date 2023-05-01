@@ -2,7 +2,7 @@ import React from "react";
 
 export const ArrowSection = () => {
   return (
-    <section className="bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black flex items-center justify-center">
+    <section className="bg-gradient-to-bl from-gray-700 via-gray-900 to-black flex items-center justify-center">
       <svg 
         width={60}
         height={30}

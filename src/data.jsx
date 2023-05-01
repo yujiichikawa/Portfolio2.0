@@ -1,46 +1,34 @@
-//  icons
+
 import { FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
 
-// skills images
-import {
-  DiHtml5,
-  DiCss3,
-  DiJsBadge,
-  DiMysql,
-  DiReact,
-  DiJava,
-  DiPython,
-  DiAndroid
-} from "react-icons/di";
+import SkillImg1 from "./assets/img/html.png";
+import SkillImg2 from "./assets/img/css3.png";
+import SkillImg3 from "./assets/img/javascript.png";
+import SkillImg4 from "./assets/img/react.png";
+import SkillImg5 from "./assets/img/java.png";
+import SkillImg6 from "./assets/img/sql.png";
+import SkillImg7 from "./assets/img/python.png";
 
-//import SkillImg1 from "./assets/img/html.png";
-//import SkillImg2 from "./assets/img/javascript.png";
-//import SkillImg3 from "./assets/img/typescript.png";
-//import SkillImg4 from "./assets/img/react.png";
-//import SkillImg5 from "./assets/img/java.png";
-//import SkillImg6 from "./assets/img/sql.png";
 
-// navigation
 export const navigation = [
   {
     name: "home",
     href: "home",
   },
   {
-    name: "about",
-    href: "about",
-  },
-  {
     name: "portfolio",
     href: "portfolio",
   },
   {
-    name: "contact",
-    href: "contact",
+    name: "sobre",
+    href: "sobre",
+  },
+  {
+    name: "contato",
+    href: "contato",
   },
 ];
 
-// social
 export const social = [
   {
     icon: <FiInstagram />,
@@ -62,31 +50,27 @@ export const social = [
   },
 ];
 
-// skill
 export const skills = [
   {
-    image: DiHtml5,
+    image: SkillImg1,
   },
   {
-    image: DiCss3,
+    image: SkillImg2,
   },
   {
-    image: DiJsBadge,
+    image: SkillImg3,
   },
   {
-    image: DiMysql,
+    image: SkillImg4,
   },
   {
-    image: DiReact,
+    image: SkillImg5,
   },
   {
-    image: DiJava,
+    image: SkillImg6,
   },
   {
-    image: DiPython,
-  },
-  {
-    image: DiAndroid,
+    image: SkillImg7,
   },
 ];
 

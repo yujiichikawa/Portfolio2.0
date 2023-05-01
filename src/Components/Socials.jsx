@@ -7,7 +7,7 @@ export const Socials = () => {
       {social.map((item,index)=>{
         return(
           <li className={`flex justify-content items-center ${item.color ? item.color :"text-withe"} ${item.colorHover ? item.colorHover:"hover:text-red-500"}`} key={index}>
-            <a className="text-base" href={item.href}>
+            <a className="text-base scale-125" href={item.href}>
               {item.icon}
             </a>
           </li>
