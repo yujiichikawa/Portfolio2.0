@@ -37,7 +37,7 @@ export const Hero = () => {
         </div>
       </div>
     </div>
-    <div className="bg-primary flex items-center justify-center">
+    <div className="bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black flex items-center justify-center">
       <ArrowSection/>
     </div>
     </section>;
