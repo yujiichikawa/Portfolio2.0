@@ -7,10 +7,10 @@ import { skills } from "../data";
 export const Skills = () => {
   const animation = useAnimation()
   return <InView onChange={(inView)=>inViewHandler(inView,animation)}>
-    <section className="h-76 bg-black py-12">
+    <section id="habilidades" className="h-76 bg-black py-12">
       <div className="flex flex-col items-center">
         <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
-          Tecnologias
+          Habilidades
         </h2>
         <div className="h-1 w-72 bg-cyan-700 mb-4 mx-auto sm:mx-0"/>
       </div>

@@ -16,16 +16,12 @@ export const navigation = [
     href: "home",
   },
   {
+    name: "habilidades",
+    href: "habilidades",
+  },
+  {
     name: "portfolio",
     href: "portfolio",
-  },
-  {
-    name: "sobre",
-    href: "sobre",
-  },
-  {
-    name: "contato",
-    href: "contato",
   },
 ];
 

@@ -16,7 +16,7 @@ export const NavBar = () => {
               offset={-70}
               className="transition-all duration-400">
                 {item.name}
-              </Link>
+            </Link>
           </li>
         )
       })}
