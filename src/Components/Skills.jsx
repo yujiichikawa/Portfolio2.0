@@ -12,11 +12,11 @@ export const Skills = () => {
         <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
           Tecnologias
         </h2>
-        <div className="h-1 w-72 bg-fuchsia-500 mb-4 mx-auto sm:mx-0"/>
+        <div className="h-1 w-72 bg-cyan-700 mb-4 mx-auto sm:mx-0"/>
       </div>
       <div className="container mx-auto">
         <motion.div
-          className="grid grid-cols-7 md:grid-flow-row items-center" initial={{opacity:0,scale:0.5}} animate={animation}>
+          className="grid grid-cols-7 md:grid-flow-row items-center flex-wrap" initial={{opacity:0,scale:0.5}} animate={animation}>
             {skills.map((skill,index)=>{
               return(
                 <div className="max-h-xs" key={index}>
