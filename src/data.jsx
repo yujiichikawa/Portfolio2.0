@@ -73,16 +73,3 @@ export const skills = [
     image: SkillImg7,
   },
 ];
-
-export const sections = [
-  {
-    title: "Backend Developer",
-    content:
-      "I have experience developing backends using Express, Node.js, Java Spring, and SQL databases such as MySQL and PostgreSQL.",
-  },
-  {
-    title: "Frontend Developer",
-    content:
-      "I am proficient in HTML, CSS, JavaScript, React, and TypeScript and have experience developing responsive and user-friendly web applications.",
-  },
-];
