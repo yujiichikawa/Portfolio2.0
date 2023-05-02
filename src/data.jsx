@@ -12,16 +12,20 @@ import SkillImg7 from "./assets/img/python.png";
 
 export const navigation = [
   {
-    name: "home",
+    name: "sobre",
     href: "home",
   },
   {
-    name: "habilidades",
-    href: "habilidades",
+    name: "Habilidades",
+    href: "Habilidades",
   },
   {
-    name: "portfolio",
+    name: "projetos",
     href: "portfolio",
+  },
+  {
+    name: "tecnologias utilizadas",
+    href: "tecnologias",
   },
 ];
 

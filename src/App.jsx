@@ -5,6 +5,8 @@ import { ArrowSection } from "./Components/ArrowSection";
 import { Skills } from "./Components/Skills";
 import { Portfolio } from "./Components/Portfolio";
 import { Footer } from "./Components/Footer";
+import CardFlip from "./Components/CardFlip";
+import { InformTecnol } from "./Components/InformTecnol";
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
       <ArrowSection/>
       <Skills />
       <Portfolio />
+      <InformTecnol/>
       <Footer />
     </div>
   );
