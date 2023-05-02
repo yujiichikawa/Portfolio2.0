@@ -20,7 +20,7 @@ export const RepositorieGit = () => {
       >
         <div className="container mx-auto">
           <motion.div
-            className="flex flex-col items-center text-center"
+            className="grid md:grid-cols-2 gap-1 items-center text-center"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={animation}
           >
