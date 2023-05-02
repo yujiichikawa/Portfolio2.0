@@ -1,6 +1,4 @@
 import React from "react";
-import { Canvas } from "@react-three/fiber";
-import { MeshDistortMaterial, Sphere, OrbitControls } from "@react-three/drei";
 import { inViewHandler } from "../animationHandler"
 import { motion, useAnimation } from "framer-motion";
 import { InView } from "react-intersection-observer";
@@ -32,21 +30,6 @@ export const Hero = () => {
                         em Backend mais também gosto do Frontend.
                       </p>
                     </div>
-                  </div>
-                  <div className="w-1/2 h-full lg:block hidden relative">
-                    <Canvas className="absolute inset-0">
-                      <OrbitControls enableZoom={false} />
-                      <ambientLight intensity={0.5} />
-                      <directionalLight position={[2.5, 2, 1]} />
-                      <Sphere args={[1, 100, 200]} scale={2}>
-                        <MeshDistortMaterial
-                          color={"#04585d"}
-                          attach={"material"}
-                          distort={0.5}
-                          speed={2}
-                        />
-                      </Sphere>
-                    </Canvas>
                   </div>
                 </motion.div>
             </div>
